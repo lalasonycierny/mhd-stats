@@ -1,0 +1,15 @@
+# Použitie: skopírujte .env.example na .env, doplňte adresy, potom: docker compose up -d
+services:
+  collector:
+    build: .
+    restart: always
+    env_file: .env
+    volumes:
+      - ./data:/data
+      - ./mapping.json:/app/mapping.json:ro
+    command: >
+      --format ${MHD_FORMAT}
+      --vehicles-url ${MHD_VEHICLES_URL}
+      --interval ${MHD_INTERVAL:-60}
+      --retention-days ${MHD_RETENTION_DAYS:-0}
+      --mapping /app/mapping.json

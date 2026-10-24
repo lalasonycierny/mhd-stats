@@ -1,0 +1,16 @@
+{
+  "list_path": "vehicles",
+  "delay_unit": "min",
+  "speed_unit": "kmh",
+  "fields": {
+    "vehicle_id": "id",
+    "route": "line",
+    "trip_id": "trip",
+    "vehicle_type": "type",
+    "lat": "lat",
+    "lon": "lon",
+    "speed_kmh": "speed",
+    "delay_s": "delay",
+    "src_ts": "timestamp"
+  }
+}
