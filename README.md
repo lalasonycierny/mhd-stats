@@ -7,7 +7,13 @@ v službe, miesta, kde vozidlá často stoja.
 Nezávislý projekt, nie je súčasťou Dopravného podniku Bratislava.
 
 <!-- STATS:START -->
-Štatistiky a grafy sa tu zobrazia po prvom spustení `publish.py` (krok 6).
+## Aktuálne štatistiky
+
+Posledných 7 dní: načas 45.9 %, meškanie 5 min a viac 38.3 %, v službe priemerne 384 vozidiel (9 987 meraní).
+
+![presnosť](stats/charts/daily_punctuality.png)
+
+Všetko: [stats/STATS.md](stats/STATS.md)
 <!-- STATS:END -->
 
 ## Obsah
@@ -226,10 +232,12 @@ Tiež nastavte `git config user.name` a `user.email` pre tohto používateľa.
 | `--no-charts` | len CSV |
 | `--min-coverage 0.5` | dni s pokrytím zberom pod 50 % sa nezobrazia v grafe vývoja |
 | `--window-days 90` | okno pre heatmapu a graf podľa hodiny |
+| `--include-today` | náhľad: spracuje aj dnešný neúplný deň (po skončení dňa sa automaticky prepočíta znova) |
 | `--reprocess` | znova prepočíta všetky dni, ktoré sú ešte v databáze (po zmene logiky) |
 
-Prvý beh `publish.py` spracuje všetky dokončené dni od začiatku zberu. Dnešný deň sa spracuje až zajtra.
-Ak je zbierané menej než deň, report ešte nevznikne.
+Prvý beh `publish.py` spracuje všetky dokončené dni od začiatku zberu. Dnešný deň sa spracuje až po polnoci.
+Ak je zbierané menej než deň, výpis v `publish.log` bude `nových dní: 0` a `zatiaľ nie sú dáta pre report`, čo je v poriadku.
+Náhľad grafov hneď: `python publish.py --repo . --push --include-today --min-coverage 0 --min-route-samples 1 --hotspot-min 2`.
 
 ### Čo sa nahráva na GitHub
 
