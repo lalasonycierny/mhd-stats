@@ -1,2 +1,2 @@
 date,runs,vehicles_all_avg,vehicles_service_avg,samples,avg_delay_min,pct_on_time,pct_1_4,pct_5plus,pct_cap15,complete
-2026-10-25,32,384.5,384.5,12303,5.809,46.07,15.83,38.1,35.28,0
+2026-10-25,1046,391.0,391.0,408948,5.257,44.63,21.24,34.13,30.48,1
