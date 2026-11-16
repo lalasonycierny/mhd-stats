@@ -1,10 +1,9 @@
 # Štatistiky MHD Bratislava
 
-Automaticky generované 2026-10-26 23:10. Zdroj: kdejemhd.sk, zber každú minútu.
+Automaticky generované 2026-11-16 20:10. Zdroj: kdejemhd.sk, zber každú minútu.
 
-- Dní v štatistike: **1** (2026-10-25 až 2026-10-25)
-- Priemerné pokrytie zberom: **73 %** (100 % = zber každú minútu celý deň)
-- Posledných 7 dní: načas 44.6 %, meškanie 5 min a viac 34.1 %, v službe priemerne 391 vozidiel (408 948 meraní).
+- Dní v štatistike: **3** (2026-10-25 až 2026-10-27)
+- Priemerné pokrytie zberom: **65 %** (100 % = zber každú minútu celý deň)
 
 ## Vývoj v čase
 
@@ -22,16 +21,16 @@ Automaticky generované 2026-10-26 23:10. Zdroj: kdejemhd.sk, zber každú minú
 
 | Linka | Meraní | Načas % | 5 min+ % | Priem. meškanie (min) |
 |---|---|---|---|---|
-| 147 | 1005 | 0.0 | 100.0 | 15.0 |
-| 191 | 2010 | 0.0 | 100.0 | 15.0 |
-| 192 | 1005 | 0.0 | 100.0 | 15.0 |
-| 94 | 1005 | 0.0 | 100.0 | 15.0 |
-| 95 | 1005 | 0.0 | 100.0 | 15.0 |
-| 90 | 3153 | 23.5 | 68.5 | 10.4 |
-| 80 | 6645 | 26.9 | 64.7 | 9.6 |
-| 77 | 1965 | 37.6 | 61.5 | 9.2 |
-| 69 | 1829 | 18.3 | 60.6 | 9.1 |
-| 50 | 12735 | 25.5 | 60.0 | 9.1 |
+| 95 | 2700 | 0.0 | 100.0 | 15.0 |
+| 27 | 1266 | 13.0 | 76.2 | 10.1 |
+| 191 | 8814 | 18.6 | 73.1 | 11.0 |
+| 163 | 1004 | 10.9 | 72.0 | 10.5 |
+| 192 | 4119 | 21.2 | 68.6 | 10.4 |
+| 90 | 7413 | 19.5 | 67.9 | 10.3 |
+| 147 | 2630 | 16.6 | 67.7 | 10.4 |
+| 80 | 18571 | 24.3 | 66.0 | 9.9 |
+| 50 | 34873 | 22.7 | 63.8 | 9.3 |
+| 32 | 16276 | 23.3 | 60.8 | 8.7 |
 
 ![linky](charts/worst_routes.png)
 
@@ -39,9 +38,9 @@ Automaticky generované 2026-10-26 23:10. Zdroj: kdejemhd.sk, zber každú minú
 
 | Typ | Meraní | Načas % | 5 min+ % |
 |---|---|---|---|
-| Autobusy | 254324 | 43.1 | 37.1 |
-| Tramvaje | 85347 | 41.5 | 35.3 |
-| Trolejbusy | 69277 | 54.0 | 21.7 |
+| Autobusy | 687448 | 39.9 | 39.2 |
+| Tramvaje | 234398 | 39.2 | 38.1 |
+| Trolejbusy | 189101 | 48.6 | 27.5 |
 
 ## Miesta, kde vozidlá stoja
 
